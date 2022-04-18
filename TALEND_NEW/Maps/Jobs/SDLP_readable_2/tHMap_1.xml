@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='190' id='1' V190='11' inStruct='' outStruct='Structures/Jobs/SDLP_readable_2/tHMap_1/OutputWrapper.xml' nextMap='' inputStructUserName='SDLP' outputStructUserName='OutputWrapper' V1='4' name='tHMap_1' incarnation='2670'>
+  <inputMapElem t='200' id='2' V200='8' input='true' usedCount='94' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
+    <mapNode t='190' idref='1'/>
+    <child t='200' id='3' V200='8' input='true' usedCount='85' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='rows'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='4' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HEADER'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='5' V200='8' input='true' usedCount='77' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HE'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='6' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HEADER'>
+          <mapNode t='190' idref='1'/>
+          <delimInitiator>HE</delimInitiator>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='200' id='7' V200='8' input='true' usedCount='69' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row'>
+          <mapNode t='190' idref='1'/>
+          <child t='200' id='8' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SP'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>SP</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='9' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DT'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>DT</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='10' V200='8' input='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TP'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>TP</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='11' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LC'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>LC</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='12' V200='8' input='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ET'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>ET</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='13' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EM'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>EM</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='14' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EQ'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>EQ</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='15' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OU'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>OU</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='16' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MA'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>MA</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='17' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='BT'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>BT</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='18' V200='8' input='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LO'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>LO</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='19' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TS'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>TS</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='20' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PA'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>PA</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='21' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DE'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>DE</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='22' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PR'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>PR</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='23' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='S1'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>S1</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='24' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='S2'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>S2</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='25' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='S3'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>S3</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='26' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PY'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>PY</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='27' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CO'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>CO</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='28' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ML'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>ML</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='29' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='IN'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>IN</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='30' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LT'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>LT</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='200' id='31' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OR'>
+            <mapNode t='190' idref='1'/>
+            <delimInitiator>OR</delimInitiator>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+        <child t='200' id='32' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FOOTER'>
+          <mapNode t='190' idref='1'/>
+        </child>
+      </child>
+      <child t='200' id='33' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DA'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='34' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HEADER'>
+          <mapNode t='190' idref='1'/>
+          <delimInitiator>DA</delimInitiator>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='200' id='35' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EV'>
+          <mapNode t='190' idref='1'/>
+          <delimInitiator>EV</delimInitiator>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='200' id='36' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ZO'>
+          <mapNode t='190' idref='1'/>
+          <delimInitiator>ZO</delimInitiator>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='200' id='37' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='RU'>
+          <mapNode t='190' idref='1'/>
+          <delimInitiator>RU</delimInitiator>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='200' id='38' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TW'>
+          <mapNode t='190' idref='1'/>
+          <delimInitiator>TW</delimInitiator>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='200' id='39' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LG'>
+          <mapNode t='190' idref='1'/>
+          <delimInitiator>LG</delimInitiator>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='200' id='40' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LO'>
+          <mapNode t='190' idref='1'/>
+          <delimInitiator>LO</delimInitiator>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='200' id='41' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='WA'>
+          <mapNode t='190' idref='1'/>
+          <delimInitiator>WA</delimInitiator>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='200' id='42' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='rows'>
+          <mapNode t='190' idref='1'/>
+          <child t='200' id='43' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='RE'>
+            <mapNode t='190' idref='1'/>
+            <child t='200' id='44' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HEADER'>
+              <mapNode t='190' idref='1'/>
+              <delimInitiator>RE</delimInitiator>
+              <delimTerminator> </delimTerminator>
+            </child>
+            <child t='200' id='45' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value'>
+              <mapNode t='190' idref='1'/>
+              <delimTerminator> </delimTerminator>
+            </child>
+            <child t='200' id='46' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value_1'>
+              <mapNode t='190' idref='1'/>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+          <child t='200' id='47' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SI'>
+            <mapNode t='190' idref='1'/>
+            <child t='200' id='48' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HEADER'>
+              <mapNode t='190' idref='1'/>
+              <delimInitiator>SI</delimInitiator>
+              <delimTerminator> </delimTerminator>
+            </child>
+            <child t='200' id='49' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Value'>
+              <mapNode t='190' idref='1'/>
+              <delimTerminator> </delimTerminator>
+            </child>
+            <child t='200' id='50' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Value_1'>
+              <mapNode t='190' idref='1'/>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+          <child t='200' id='51' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='VA'>
+            <mapNode t='190' idref='1'/>
+            <child t='200' id='52' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HEADER'>
+              <mapNode t='190' idref='1'/>
+              <delimInitiator>VA</delimInitiator>
+              <delimTerminator> </delimTerminator>
+            </child>
+            <child t='200' id='53' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Value'>
+              <mapNode t='190' idref='1'/>
+              <delimTerminator> </delimTerminator>
+            </child>
+            <child t='200' id='54' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Value_1'>
+              <mapNode t='190' idref='1'/>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+          <child t='200' id='55' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SQ'>
+            <mapNode t='190' idref='1'/>
+            <child t='200' id='56' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Header'>
+              <mapNode t='190' idref='1'/>
+              <delimInitiator>SQ</delimInitiator>
+              <delimTerminator> </delimTerminator>
+            </child>
+            <child t='200' id='57' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value'>
+              <mapNode t='190' idref='1'/>
+              <delimTerminator> </delimTerminator>
+            </child>
+            <child t='200' id='58' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value_1'>
+              <mapNode t='190' idref='1'/>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+          <child t='200' id='59' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NV'>
+            <mapNode t='190' idref='1'/>
+            <child t='200' id='60' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HEADER'>
+              <mapNode t='190' idref='1'/>
+              <delimInitiator>NV</delimInitiator>
+              <delimTerminator> </delimTerminator>
+            </child>
+            <child t='200' id='61' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value'>
+              <mapNode t='190' idref='1'/>
+              <delimTerminator> </delimTerminator>
+            </child>
+            <child t='200' id='62' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value_'>
+              <mapNode t='190' idref='1'/>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+          <child t='200' id='63' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SM'>
+            <mapNode t='190' idref='1'/>
+            <child t='200' id='64' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HEADER'>
+              <mapNode t='190' idref='1'/>
+              <delimInitiator>SM</delimInitiator>
+              <delimTerminator> </delimTerminator>
+            </child>
+            <child t='200' id='65' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value'>
+              <mapNode t='190' idref='1'/>
+              <delimTerminator> </delimTerminator>
+            </child>
+            <child t='200' id='66' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='value_'>
+              <mapNode t='190' idref='1'/>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+        </child>
+        <child t='200' id='67' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FOOTER'>
+          <mapNode t='190' idref='1'/>
+        </child>
+      </child>
+      <child t='200' id='68' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FOOTER'>
+        <mapNode t='190' idref='1'/>
+        <delimInitiator>EF</delimInitiator>
+      </child>
+    </child>
+  </inputMapElem>
+  <outputMapElem t='200' id='69' V200='8' structElemExists='true' usedCount='138' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='root'>
+    <mapNode t='190' idref='1'/>
+    <loop>SimpleLoop(in$/root,{Filter},{Sort Keys},{Contexts})</loop>
+    <child t='200' id='70' V200='8' structElemExists='true' usedCount='63' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_validate='true' modifiedFromParent_io='true' V1='4' name='he'>
+      <mapNode t='190' idref='1'/>
+      <io>WriteURL([repName="Map"],{URL})</io>
+      <child t='200' id='79' V200='8' usedCount='54' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='heRecord'>
+        <mapNode t='190' idref='1'/>
+        <loop>SimpleLoop(in$/root/rows/HE,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/root/rows/HE,{Filter},{Sort Keys},{Contexts})))</loop>
+        <child t='200' id='80' V200='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FN'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='81' V200='8' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TP'>
+          <mapNode t='190' idref='1'/>
+          <value>AgConcatFirstPresentValue(in$/root/rows/HE/row/TP(SimpleLoop(in$/root/rows/HE/row,{Filter},{Sort Keys},{Contexts})))</value>
+        </child>
+        <child t='200' id='82' V200='8' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ET'>
+          <mapNode t='190' idref='1'/>
+          <value>AgConcatFirstPresentValue(in$/root/rows/HE/row/ET(SimpleLoop(in$/root/rows/HE/row,{Filter},{Sort Keys},{Contexts})))</value>
+        </child>
+        <child t='200' id='83' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='LC'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='84' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='EM'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='85' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='EQ'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='86' V200='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='RN'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='87' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='SA'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='88' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DT'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='89' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='IN'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='90' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='OU'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='91' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CO'>
+          <mapNode t='190' idref='1'/>
+        </child>
+      </child>
+    </child>
+    <child t='200' id='72' V200='8' structElemExists='true' usedCount='62' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_validate='true' modifiedFromParent_io='true' V1='4' name='he_lo'>
+      <mapNode t='190' idref='1'/>
+      <validate>WriteURL([repName="Map"],{URL})</validate>
+      <io>WriteURL([repName="Map"],{URL})</io>
+      <child t='200' id='92' V200='8' usedCount='53' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='he_loRecord'>
+        <mapNode t='190' idref='1'/>
+        <loop>SimpleLoop(in$/root/rows,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/root/rows/HE,{Filter},{Sort Keys},{Contexts})))</loop>
+        <child t='200' id='93' V200='8' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='LO'>
+          <mapNode t='190' idref='1'/>
+          <value>AgConcat([delimiter=","],in$/root/rows/HE/row/LO(SimpleLoop(in$/root/rows/HE/row,HasValue(in$/root/rows/HE/row/LO),{Sort Keys},{Contexts})))</value>
+        </child>
+        <child t='200' id='94' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='OR'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='95' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='LT'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='96' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='PA'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='97' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DE'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='98' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='MA'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='99' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ML'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='100' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TS'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='101' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='PR'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='102' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='SA'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='103' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='S2'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='104' V200='8' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='S3'>
+          <mapNode t='190' idref='1'/>
+        </child>
+      </child>
+    </child>
+  </outputMapElem>
+  <inputRepRuntime t='693' id='186' V693='1' newLineType='3' newLine='\n' delimiter=',' ignoreAmbiguousInitTerms='true' outputAsDelimited='true' structName='Structures/SDLP.xml' V690='1' padOutput='true' trimInput='true'>
+  </inputRepRuntime>
+  <valueSets></valueSets>
+  <inputXmlRepRuntime t='692' id='187' V692='1' V690='1'>
+  </inputXmlRepRuntime>
+  <child t='165' id='74' V1='4' name='Document Bindings'>
+    <child t='166' id='75' V166='5' docType='2' V1='4' name='out$/root/he'>
+      <elemNode t='200' idref='70'/>
+    </child>
+    <child t='166' id='76' V166='5' docType='2' V1='4' name='out$/root/he_lo'>
+      <elemNode t='200' idref='72'/>
+    </child>
+    <child t='166' id='77' V166='5' docType='1' docReposPath='/LOCAL_PROJECT/Sample Data/sdlp_nxp/sample_1sdlf.txt' V1='4' name='in$/root'>
+      <elemNode t='200' idref='2'/>
+    </child>
+    <child t='166' id='188' V166='5' docType='2' V1='4' name='out$/root'>
+      <elemNode t='200' idref='69'/>
+    </child>
+  </child>
+  <child t='201' id='78' V1='4' name='Inherits From'>
+  </child>
+</root>
