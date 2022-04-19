@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_GCwF0A7lEeuDtOCH7rfCuw">
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Server" prompt="MSSql_ContextAndLogs_Server?" promptNeeded="false" type="id_String" value="USFL04OPD30V" xmi:id="_GCwF0Q7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Password" prompt="MSSql_ContextAndLogs_Password?" promptNeeded="false" type="id_String" value="&quot;T@l3ND432015%&quot;" xmi:id="_GCwF0g7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Database" prompt="MSSql_ContextAndLogs_Database?" promptNeeded="false" type="id_String" value="&quot;ContextAndLogs&quot;" xmi:id="_GCwF0w7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Login" prompt="MSSql_ContextAndLogs_Login?" promptNeeded="false" type="id_String" value="&quot;talend_svc&quot;" xmi:id="_GCwF1A7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Port" prompt="MSSql_ContextAndLogs_Port?" promptNeeded="false" type="id_String" value="&quot;1433&quot;" xmi:id="_GCwF1Q7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Schema" prompt="MSSql_ContextAndLogs_Schema?" promptNeeded="false" type="id_String" value="&quot;dbo&quot;" xmi:id="_GCwF1g7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_AdditionalParams" prompt="MSSql_ContextAndLogs_AdditionalParams?" promptNeeded="false" type="id_String" value="&quot;domain=HSUS&quot;" xmi:id="_GCwF1w7lEeuDtOCH7rfCuw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PreProd" xmi:id="_GCwF2A7lEeuDtOCH7rfCuw">
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Server" prompt="MSSql_ContextAndLogs_Server?" promptNeeded="false" type="id_String" value="&quot;USFL04SQL01&quot;" xmi:id="_GCwF2Q7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Password" prompt="MSSql_ContextAndLogs_Password?" promptNeeded="false" type="id_String" value="&quot;T@l3ND432015%&quot;" xmi:id="_GCwF2g7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Database" prompt="MSSql_ContextAndLogs_Database?" promptNeeded="false" type="id_String" value="&quot;ContextAndLogs&quot;" xmi:id="_GCwF2w7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Login" prompt="MSSql_ContextAndLogs_Login?" promptNeeded="false" type="id_String" value="&quot;talend_svc&quot;" xmi:id="_GCwF3A7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Port" prompt="MSSql_ContextAndLogs_Port?" promptNeeded="false" type="id_String" value="&quot;60995&quot;" xmi:id="_GCwF3Q7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Schema" prompt="MSSql_ContextAndLogs_Schema?" promptNeeded="false" type="id_String" value="&quot;dbo&quot;" xmi:id="_GCwF3g7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_AdditionalParams" prompt="MSSql_ContextAndLogs_AdditionalParams?" promptNeeded="false" type="id_String" value="&quot;domain=HSUS;instance=USFL04_SQLINS01&quot;" xmi:id="_GCwF3w7lEeuDtOCH7rfCuw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_GCwF4A7lEeuDtOCH7rfCuw">
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Server" prompt="MSSql_ContextAndLogs_Server?" promptNeeded="false" type="id_String" value="&quot;USFL04SQL02&quot;" xmi:id="_GCwF4Q7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Password" prompt="MSSql_ContextAndLogs_Password?" promptNeeded="false" type="id_String" value="&quot;T@l3ND432015%&quot;" xmi:id="_GCwF4g7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Database" prompt="MSSql_ContextAndLogs_Database?" promptNeeded="false" type="id_String" value="&quot;ContextAndLogs&quot;" xmi:id="_GCwF4w7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Login" prompt="MSSql_ContextAndLogs_Login?" promptNeeded="false" type="id_String" value="&quot;talend_svc&quot;" xmi:id="_GCwF5A7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Port" prompt="MSSql_ContextAndLogs_Port?" promptNeeded="false" type="id_String" value="&quot;49495&quot;" xmi:id="_GCwF5Q7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Schema" prompt="MSSql_ContextAndLogs_Schema?" promptNeeded="false" type="id_String" value="&quot;dbo&quot;" xmi:id="_GCwF5g7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_AdditionalParams" prompt="MSSql_ContextAndLogs_AdditionalParams?" promptNeeded="false" type="id_String" value="&quot;domain=HSUS;instance=USFL04_SQLINS02&quot;" xmi:id="_GCwF5w7lEeuDtOCH7rfCuw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_GCwF6A7lEeuDtOCH7rfCuw">
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Server" prompt="MSSql_ContextAndLogs_Server?" promptNeeded="false" type="id_String" value="&quot;10.83.11.30&quot;" xmi:id="_GCwF6Q7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Password" prompt="MSSql_ContextAndLogs_Password?" promptNeeded="false" type="id_String" value="&quot;T@l3ND432015%&quot;" xmi:id="_GCwF6g7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Database" prompt="MSSql_ContextAndLogs_Database?" promptNeeded="false" type="id_String" value="&quot;ContextAndLogs&quot;" xmi:id="_GCwF6w7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Login" prompt="MSSql_ContextAndLogs_Login?" promptNeeded="false" type="id_String" value="&quot;talend_svc&quot;" xmi:id="_GCwF7A7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Port" prompt="MSSql_ContextAndLogs_Port?" promptNeeded="false" type="id_String" value="&quot;1433&quot;" xmi:id="_GCwF7Q7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_Schema" prompt="MSSql_ContextAndLogs_Schema?" promptNeeded="false" type="id_String" value="&quot;dbo&quot;" xmi:id="_GCwF7g7lEeuDtOCH7rfCuw"/>
+    <contextParameter comment="" name="MSSql_ContextAndLogs_AdditionalParams" prompt="MSSql_ContextAndLogs_AdditionalParams?" promptNeeded="false" type="id_String" value="&quot;domain=HSUS&quot;" xmi:id="_GCwF7w7lEeuDtOCH7rfCuw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_cc6850fa-0a26-4f68-a479-9090c10e3e07"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WBX4SvTFbXhT1xlXWa8UCfxTQteWs7zYe/a+IHcEO+tr4z5d/Evfntl4joRtCXe9YoPMtimnbz1L&#13;
+YMFK531fxA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1d44cc34-8876-4422-97aa-cf0c9d845ecc"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KRZLMmsBBi9sajfK9AEJ+DHSaqGrm+B1QpQSYGmqt3PG+tf+qfISTMJVCNKVB2ca94U+oxSjp8OB&#13;
+NwwrDdzw9A==</DigestValue></Reference></SignedInfo><SignatureValue>jQzXvZfBA3/cbjAu5byhG0ZLViI9O9/3Mv/7IuSbcOLn1p3cbO7opanmgdvs27Aux+WHSa8EoRnx&#13;
+SaOaiu1AM8lMFXzVlWw2vMPAl27T2hFpSCpTpQEnlYn4G8T3OTf1aJZ8UPYb1ubMOGOGvVpiVF9c&#13;
+BnlGUMDRksFBFSY1u66ucfQIxt/Zv80ui3SdHagcpoxwDyxlcxpPsTwqePm8GlR2TD5XFNXsBV5Z&#13;
+WwqzEhJ2D1WF+SO4pGOh5eF+DiBFrixqU/W8I0meEu0pClWTGhHLq4fgl4kKVMtkRT4zQ5ctg1W7&#13;
+u8g/2++OMxPG9K8SP/7+hOvSFu1Cqa7mP5ZzpQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1d44cc34-8876-4422-97aa-cf0c9d845ecc" Target="#_cc6850fa-0a26-4f68-a479-9090c10e3e07"><Timestamp>2022-04-19 19:43:16</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
