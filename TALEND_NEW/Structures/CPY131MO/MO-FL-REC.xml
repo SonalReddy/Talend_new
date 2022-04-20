@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x18048a71e1a' V1='4' name='MO-FL-REC' incarnation='93'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-REC'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Record' checksumValid='true' checksum='xsGxykiah4yp2MD51PhP8yeOMtY='>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='4' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='21' maxSize='21' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X(21)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='5' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-OLD-PRDY' description='99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='6' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X(01)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='7' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-OLDJUL-PRDY-CC' description='9(2)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='8' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='5' maxSize='5' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-OLDJUL-PRDY' description='9(5)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='9' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X(01)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='10' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-OLDMM-PRDY' description='99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='11' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-OLDMMM-PRDY' description='XXX'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='12' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-OLDDD-PRDY' description='99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='13' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-OLDCC-PRDY' description='9(2)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='14' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-OLDYY-PRDY'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='15' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-OLDY1' description='9'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='16' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-OLDY2' description='9'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='17' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X(01)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='18' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-CURR-PRDY' description='99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='19' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X(01)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='20' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-NEWJUL-CC' description='99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='21' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-NEWJUL-PRDY'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='22' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-NEWJULYY' description='99'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='23' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='3' maxSize='3' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-NEWJULDDD' description='999'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='24' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='25' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-NEWMM-PRDY' description='99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='26' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-NEWMMM-PRDY' description='XXX'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='27' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-NEWDD-PRDY' description='99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='28' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-NEWCC-PRDY' description='99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='29' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-NEWYY-PRDY' description='99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='30' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='31' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-MTHEND-IND' description='XXX'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='32' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-DIFF' description='9'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='33' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-PRDYS12'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='34' V167='21' V283='2' occurMinTimes='12' occurMaxTimes='12' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-MAXPRDYS'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='35' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-MAXDYS-MTH' description='99'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='36' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' dataFormat='202' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-QTD-DAYS' description='S999'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='37' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X(7)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='38' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='5' maxSize='5' dataType='22' dataFormat='202' decimalPositions='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-SIGCA-TRAMT' description='S9(7)V99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='39' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='7' maxSize='7' dataType='22' dataFormat='202' decimalPositions='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-SIGCA-DLYBAL' description='S9(11)V99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='40' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='7' maxSize='7' dataType='22' dataFormat='202' decimalPositions='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-SIGCA-ENDBAL' description='S9(11)V99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='41' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='5' maxSize='5' dataType='22' dataFormat='202' decimalPositions='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-SIGSCA-TRAMT' description='S9(7)V99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='42' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='7' maxSize='7' dataType='22' dataFormat='202' decimalPositions='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-SIGSCA-DLYBAL' description='S9(11)V99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='43' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='7' maxSize='7' dataType='22' dataFormat='202' decimalPositions='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-SIGSCA-ENDBAL' description='S9(11)V99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='44' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X(06)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='45' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-SYST-ID'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='46' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-SYST-LIT' description='X(4)'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='47' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-LEG-ID' description='X(1)'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='48' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='49' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-JNL-SPOOL' description='X'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='50' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' groupType='2' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Redefines_Choice'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='51' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-LOC-ID'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='52' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-DC-LOC' description='X'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='53' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+        <child t='167' id='54' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-LOC-ID-R' description='XX' checksumValid='true' checksum='jTxoreh+l161UEB1XA1RKzEFm+E='>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='55' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO' description='MO-FL-LOC-ID-MO'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='56' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TO' description='MO-FL-LOC-ID-TO'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='57' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NF' description='MO-FL-LOC-ID-NF'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='58' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HA' description='MO-FL-LOC-ID-HA'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='59' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='WI' description='MO-FL-LOC-ID-WI'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='60' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='RE' description='MO-FL-LOC-ID-RE'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='61' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CA' description='MO-FL-LOC-ID-CA'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='62' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='VA' description='MO-FL-LOC-ID-VA'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='63' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X(40)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='64' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='4' dataType='22' dataFormat='202' decimalPositions='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-MRS-ODLIM-DLY' description='S9(5)V99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='65' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='4' dataType='22' dataFormat='202' decimalPositions='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-MRS-ODLIM-MTHEND' description='S9(5)V99'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='66' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='22' dataFormat='202' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-MRS-MTH-MULT' description='S9'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='67' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' dataFormat='202' decimalPositions='3' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-MRS-CGC-REV-PCT' description='SV999'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='68' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='22' dataFormat='202' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-MRS-SIG-AV-BAL' description='S9(11)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='69' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='22' dataFormat='202' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-MRS-SIG-BAL-FLUCT' description='S9(11)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='70' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='22' dataFormat='202' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-MRS-NEW-ACCT-BAL' description='S9(11)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='71' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='22' dataFormat='202' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-MRS-CLSD-ACCT-AVG-BAL' description='S9(11)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='72' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='22' dataFormat='202' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-MRS-CLSD-ACCT-MAX-BAL' description='S9(11)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='73' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='35' maxSize='35' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X(35)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='74' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-CGC-LAST-RPT'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='75' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-CGC-LAST-RPT1' description='X'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='76' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-CGC-LAST-RPT2' description='X'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='77' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='22' dataFormat='202' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-DAYS-YTD' description='S9(3)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='78' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-RERUN-ALLOW-FLAG' description='X(1)'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='79' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='N' description='MO-FL-RERUN-NOT-ALLOW'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+      <child t='167' id='80' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='406' maxSize='406' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X(406)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='81' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='5' maxSize='5' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MO-FL-BLT-FILLER' description='X(005)'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='82' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1111' maxSize='1111' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X(1111)'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+  </rootElem>
+  <defaultRep t='180' id='83' V180='2' V170='10' V703='2' byteOrder='BIG_ENDIAN' largeOccursErrorThreshold='10000' V690='1' encoding='IBM037' trimInput='true' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='Cobol'>
+  </defaultRep>
+  <rowElem t='167' idref='3'/>
+  <child t='162' id='84' V1='4' name='Representations'>
+    <child t='180' idref='83'/>
+    <child t='173' id='85' V170='10' V693='1' delimiter=',' physicalEncoding='1' numberEncoding='1' positional='true' padOccurs='true' V690='1' padOutput='true' encoding='IBM037' trimInput='true' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='Flat'>
+    </child>
+    <child t='172' id='86' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    </child>
+    <child t='179' id='87' V179='1' V170='10' V699='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='AVRO'>
+    </child>
+  </child>
+  <child t='165' id='88' V1='4' name='Document Bindings'>
+  </child>
+</root>
