@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:L9UAMvuTwhmeGuwaez3wI7RUo1/rGKMOv8bK3fu6"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Djw9hRy7uga0kHhvGP3NPUJaye6/4fbaw++aeqxi"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:cCk6/rgiDRaOvalJRrpN3jI8Oi0nqsNYUJ80aNso"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:wdToYaOBIb0xkbNjlzy34RmYuic2O85gQbTxcfks"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -198,7 +198,7 @@
       <column comment="" key="false" length="-1" name="INDEX_CCY" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="UNIVERSE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="SOURCE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="INDEXHUB_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="INDEXHUB_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="MARKET_VALUE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
@@ -210,7 +210,7 @@
       <column comment="" key="false" length="-1" name="INDEX_CCY" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="UNIVERSE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="SOURCE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="INDEXHUB_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="INDEXHUB_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="MARKET_VALUE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -251,7 +251,7 @@
         <mapperTableEntries expression="row1.L_S_COL.replaceAll(&quot;Long&quot;, &quot;L&quot;).replaceAll(&quot;Short&quot;, &quot;S&quot;) " name="L_S_COL" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.YES_NO_COL.replaceAll(&quot;Yes&quot;, &quot;Y&quot;).replaceAll(&quot;No&quot;, &quot;N&quot;) " name="YES_NO_COL" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.LNG_SRT_COL.replaceAll(&quot;Long&quot;, &quot;L&quot;).replaceAll(&quot;Short&quot;, &quot;S&quot;) " name="LNG_SRT_COL" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.INDEX_CCY.equals(&quot;US&quot;)?&quot;USD_&quot;+row1.UNIVERSE:row1.INDEX_CCY+&quot;_&quot;+row1.UNIVERSE " name="ACCT_CD" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.INDEX_CCY.equals(&quot;US&quot;)?row1.SOURCE+row1.INDEXHUB_ID+&quot;USD_&quot;+row1.UNIVERSE:row1.SOURCE+row1.INDEXHUB_ID+row1.INDEX_CCY+&quot;_&quot;+row1.UNIVERSE " name="ACCT_CD" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.UNIVERSE" name="UNIVERSE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.SOURCE" name="SOURCE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.INDEXHUB_ID" name="INDEXHUB_ID" nullable="true" type="id_Long"/>
@@ -266,7 +266,7 @@
         <mapperTableEntries name="INDEX_CCY" nullable="true" type="id_String"/>
         <mapperTableEntries name="UNIVERSE" nullable="true" type="id_String"/>
         <mapperTableEntries name="SOURCE" nullable="true" type="id_String"/>
-        <mapperTableEntries name="INDEXHUB_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="INDEXHUB_ID" nullable="true" type="id_String"/>
         <mapperTableEntries name="MARKET_VALUE" nullable="true" type="id_Integer"/>
       </inputTables>
     </nodeData>
@@ -335,13 +335,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a48a42bc-c2cc-4932-8498-bb589edf5ef7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CQa99vJ4J2J6nc+SQIXWi9LxZ/h1JtIgoAA5dyWkpgPKIkTKAzL4NvJWw+INrK80g5VxCmxcNcua&#13;
-iww2CkEvZg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_25ca3079-1e09-4e5d-b0a6-b107304b43c9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>w353SfxYyKbddoF//3+Q6J8GRoH79GlQt/wLFAOkvGusMbhlc4iM0C6IZR/M8YieBf9gg7U0o3hG&#13;
-puEyhhVtYg==</DigestValue></Reference></SignedInfo><SignatureValue>jCnpbweRJFkBkwdtnNpdtz1yzFp6jiOeJdL5vRoRh1P4CSTfkNBhAdSUUPzGXMNqRvvzkL+1+oWX&#13;
-eZvT4SZzVnxd+nBuPjjOFp2tH2HqQRivy92f753h9K73HiuQQJUiXz8eWZVggxdDnOfmTlp0aGgh&#13;
-9MeLYEB5Z6LJc2iqGuwMCpMxDMi39uaBeZEPi+b5pd0ctTiCSbJFpedP9x0Fep34QgHZTrsKSrnj&#13;
-JzpDf5uKqPh+m52ywNnq+aEnx68G6yCEeq/ETJ6g/mgMsZAcMrim6bfrCF7cbq8K+mxV3GZS66kN&#13;
-ANvpQnf2ZPRO41oQelgq7/xyyUzf3Sq4tztzMw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_63dd1772-7189-4298-8319-2a1acabba75b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DZ6LppeFShEYJ7Lci4rY/qWdxeTR1aUFu5juNVN+EGrrFMHET5NV+5JF/WXq50mjRQ5jlyfhDiDK&#13;
+yNYoJp2tWQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2d5293ab-7566-423a-967c-fb40672723a0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ksu9x/K/GPV/6YUN+4KqGNAQYGveNHUCkd4xsAJqo/Q/yfHXfN/Ag8VkHOtO5ERRdJenEwDy8lMd&#13;
+NdYZv3kh1g==</DigestValue></Reference></SignedInfo><SignatureValue>eNZphT/wwvTWwkaMImTCz1yxYb33jApZGFLHdJ6vFY8VABrYVioPLaCD3jmyZEDCUmnVpvhs4DSq&#13;
+/lZah1FVTwBBHsd4GnazKD41mOtHimRn6FPBOf/qj5Of4mZPQ5hT9Ncosh58O/LAKMzC97p55+3+&#13;
+/We6Fukz0X50PChA0z7KqeKRZTaLKfnynbZEqXYOKptBKEvCuLzFhjTEFX1dOMCE8S3jA+DywyTC&#13;
+3h/9E9mEezAU1lM9J8O2Sjj/JD5/mGybaGlWpNMRVYaSLFIont4aYdwNQpz7f6gJ2bd07Fe6WwDr&#13;
+3G06WNyznB8DfRnnwWMlJYo5TsxO/YOLU7e+mg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -363,4 +363,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_25ca3079-1e09-4e5d-b0a6-b107304b43c9" Target="#_a48a42bc-c2cc-4932-8498-bb589edf5ef7"><Timestamp>2022-04-20 19:59:20</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2d5293ab-7566-423a-967c-fb40672723a0" Target="#_63dd1772-7189-4298-8319-2a1acabba75b"><Timestamp>2022-04-20 20:01:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
