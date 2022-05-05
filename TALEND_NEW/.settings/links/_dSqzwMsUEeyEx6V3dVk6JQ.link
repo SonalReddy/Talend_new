@@ -1,0 +1,23 @@
+{
+  "itemId" : "_dSqzwMsUEeyEx6V3dVk6JQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_pRjgQMsXEeyEx6V3dVk6JQ",
+    "parameterList" : [ {
+      "id" : "_VHXspMscEeyEx6V3dVk6JQ",
+      "name" : "Additional_JDBC_param"
+    }, {
+      "id" : "_VHXsoMscEeyEx6V3dVk6JQ",
+      "name" : "Host"
+    }, {
+      "id" : "_VHXso8scEeyEx6V3dVk6JQ",
+      "name" : "password"
+    }, {
+      "id" : "_VHXsocscEeyEx6V3dVk6JQ",
+      "name" : "port"
+    }, {
+      "id" : "_VHXsosscEeyEx6V3dVk6JQ",
+      "name" : "userName"
+    } ]
+  } ]
+}
