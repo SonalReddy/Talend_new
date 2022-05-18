@@ -1,4 +1,4 @@
 distribution.dynamic.repository.cdh.isAnonymous=true
-distribution.dynamic.repository.cdh.password=enc\:system.encryption.key.v1\:BXHDwvRfuR1SOGP9kAsDXq+B6ylCJEqNAyRHCwDz541wctnp+g\=\=
+distribution.dynamic.repository.cdh.password=enc\:system.encryption.key.v1\:jfZe7ZdY7FOSCJLUmOax/M9yBqmlUYsAnN6vtCO55gJhSfjtGA\=\=
 distribution.dynamic.repository.cdh.username=admin
 eclipse.preferences.version=1
