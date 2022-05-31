@@ -1,7 +1,7 @@
 eclipse.preferences.version=1
 nexus.proxy.enable=true
 nexus.proxy.password=Jfrog135$
-nexus.proxy.repository.id=talend-custom-libs-release
+nexus.proxy.repository.id=talend-custom-libs-releases
 nexus.proxy.type=ARTIFACTORY
 nexus.proxy.url=http\://18.118.100.20\:8081/artifactory
 nexus.proxy.username=admin
