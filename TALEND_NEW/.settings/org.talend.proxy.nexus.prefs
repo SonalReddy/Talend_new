@@ -1,5 +1,4 @@
 eclipse.preferences.version=1
-nexus.proxy.enable=true
 nexus.proxy.password=Jfrog135$
 nexus.proxy.repository.id=talend-custom-libs-releases
 nexus.proxy.type=ARTIFACTORY
