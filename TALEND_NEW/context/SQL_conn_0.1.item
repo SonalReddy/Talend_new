@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_jDo7APhQEeq1pqIYHamp8g" xmi:version="2.0">
+  <contextParameter comment="" name="cv_SQLServerUserId" prompt="cv_SQLServerUserId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jDo7B_hQEeq1pqIYHamp8g"/>
+  <contextParameter comment="" name="cv_SQLServerPassWd" prompt="cv_SQLServerPassWd?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jDo7CPhQEeq1pqIYHamp8g"/>
+  <contextParameter comment="" name="cv_SQLserverschema" prompt="cv_SQLserverschema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jDo7CfhQEeq1pqIYHamp8g"/>
+  <contextParameter comment="" name="cv_SQLserverDatabase" prompt="cv_SQLserverDatabase?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jDo7CvhQEeq1pqIYHamp8g"/>
+  <contextParameter comment="" name="cv_SQLServerPort" prompt="cv_SQLServerPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jDo7C_hQEeq1pqIYHamp8g"/>
+  <contextParameter comment="" name="cv_SQLServerHost" prompt="cv_SQLServerHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jDo7DPhQEeq1pqIYHamp8g"/>
+  <contextParameter comment="" name="cv_EmailFrom" prompt="cv_EmailFrom?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jDo7EPhQEeq1pqIYHamp8g"/>
+  <contextParameter comment="" name="cv_EmailTo" prompt="cv_EmailTo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jDo7EfhQEeq1pqIYHamp8g"/>
+  <contextParameter comment="" name="cv_Environment" prompt="cv_Environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jDo7EvhQEeq1pqIYHamp8g"/>
+  <contextParameter comment="" name="cv_LogsDir" prompt="cv_LogsDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jDo7E_hQEeq1pqIYHamp8g"/>
+  <contextParameter comment="" name="cv_context_file" prompt="cv_context_file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/talend/data/prod/markets_group/params/group_salesforce/G2_Context.prm" xmi:id="_1qT3gBlHEeuhlNeXuo16ZQ"/>
+  <contextParameter comment="" name="cv_audit_file_path" prompt="cv_audit_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_KYy4wBlIEeuhlNeXuo16ZQ"/>
+  <contextParameter comment="" name="cv_jdbc_params" prompt="cv_jdbc_params?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Yr7noCUDEeuH7c8X-_aFsQ"/>
+  <contextParameter comment="" name="cv_out_filepath" prompt="cv_out_filepath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_pYyD8FH8EeuMR-JzRD5p-w"/>
+  <contextParameter comment="" name="lv_AuditStatus" prompt="lv_AuditStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5aHekFQ2EeuEZYVBw2ZVNg"/>
+  <contextParameter comment="" name="cv_EmailHost" prompt="cv_EmailHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_7JX1sFQ2EeuEZYVBw2ZVNg"/>
+  <contextParameter comment="" name="cv_env" prompt="cv_env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="__PxqYFQ2EeuEZYVBw2ZVNg"/>
+  <contextParameter comment="" name="lv_encryption_key" prompt="lv_encryption_key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2xRWoFXvEeuMZJIu_jybkw"/>
+  <contextParameter comment="" name="cv_lkp_filepath" prompt="cv_lkp_filepath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4enhwFd6EeuP05cHliY8AQ"/>
+  <contextParameter comment="" name="cv_in_filepath" prompt="cv_in_filepath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GffxQGDsEeu7NrILpKmyjw"/>
+  <contextParameter comment="" name="lv_top_count" prompt="lv_top_count?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_E7nE0Io6EeuBeOfLeG50EQ"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d8212536-a02a-42b5-acf5-a112003284ec"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Jp40+WHmC0t6gTyqSUxDHPqQqnHSB822oAvk/hWhlsCvAcJWQ1VnGs8OeXLu6dRIqyj6Ev9Nhqu0&#13;
+/nOsiwTf6w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ca395834-dc4a-4b20-99cd-1e07c1e68d1e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>h5Gzd44uB3GHk89/ywyiXngWx9RS8V3EFLp0XN4lo86zltHap0996o2dhITsw5nqXrqtkmqQKoar&#13;
+9JVQN3JPBQ==</DigestValue></Reference></SignedInfo><SignatureValue>mxVJmldHbbAPfJYB+DbxfiA8fengt85NKAqzPWPBwhY6P1WgSjMW6xNSJFj6sXhymLhDK4lTa947&#13;
++gjjEkITGyeQ+BGLnnOQy6wBonMlsRtkTWRggQIK0DgRQ6qfY7kQ04CSDpipFvbQYj/+ZHFX66oQ&#13;
+1v36mODcY/9vMXVcVhUhXfFdLqB50xBf2CyBe32SAUP2mEycegacztos7Mg4tFcfCQcmN+HM89M+&#13;
+Pfo3G38H3whfRuZqxTu7hgTFhGhc6uYREQ34mmb0wWVjHXxrpmqwiCKkPXHeuhC1OV0kfu8Urh8M&#13;
+n+Q/Nq9YMk66v3lwmwQLvbH+KtffbbWPb9BXMA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ca395834-dc4a-4b20-99cd-1e07c1e68d1e" Target="#_d8212536-a02a-42b5-acf5-a112003284ec"><Timestamp>2022-06-06 17:02:05</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
