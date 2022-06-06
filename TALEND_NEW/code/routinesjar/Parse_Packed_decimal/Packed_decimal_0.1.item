@@ -32,10 +32,38 @@ public class Packed_decimal {
      * 
      * {example} helloExemple("world") # hello world !.
      */
-    public static void helloExample(String message) {
-        if (message == null) {
-            message = "World"; //$NON-NLS-1$
-        }
-        System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
-    }
+	public static long parse(byte[] pdIn) throws Exception {
+	       // Convert packed decimal to long
+	         final int PlusSign = 0x0C;       // Plus sign
+	         final int MinusSign = 0x0D;      // Minus
+	         final int NoSign = 0x0F;         // Unsigned
+	         final int DropHO = 0xFF;         // AND mask to drop HO sign bits
+	         final int GetLO  = 0x0F;         // Get only LO digit
+	   long val = 0;                    // Value to return
+	    
+	         for(int i=0; i < pdIn.length; i++) {
+	            int aByte = pdIn & DropHO; // Get next 2 digits & drop sign bits
+	            if(i == pdIn.length - 1) {    // last digit?
+	               int digit = aByte >> 4;    // First get digit
+	               val = val*10 + digit;
+//	               System.out.println("digit=" + digit + ", val=" + val);
+	               int sign = aByte & GetLO;  // now get sign
+	               if (sign == MinusSign)
+	                  val = -val;
+	               else {
+	                  // Do we care if there is an invalid sign?
+	                  if(sign != PlusSign && sign != NoSign)
+	                     throw new Exception("OC7");
+	               }
+	            }else {
+	               int digit = aByte >> 4;    // HO first  
+	               val = val*10 + digit;
+//	               System.out.println("digit=" + digit + ", val=" + val);
+	               digit = aByte & GetLO;      // now LO
+	               val = val*10 + digit;
+//	               System.out.println("digit=" + digit + ", val=" + val);
+	            }
+	         }
+	   return val;
+	   } // end parse()
 }
